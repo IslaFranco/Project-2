@@ -17,7 +17,7 @@
 -Node
 
 # Screenshots
-[click here]() to find a new Gluten Free recipe to try!
+[click here](assets/Screen%20Shot%202022-07-23%20at%2010.29.36%20AM.png) to find a new Gluten Free recipe to try!
 
 # Future Enhancements 
 - Create a like button that will save their favorite recipes
