@@ -1,0 +1,19 @@
+<%- include("./partials/head.ejs") %>
+<%- include("./partials/header.ejs") %>
+
+<div class="wrapper-show">
+    <a class="button back" href="/recipies">Go Back</a>
+    <div class="flex-parent">
+        <img src="<%= foundRecipie.img %>" class="img-size img-border alt="<%= foundRecipie.name %>">
+        <h1><%= foundRecipie.artist %></h1>
+        <div class="box">
+            <a class="button" href="/recipies/<%= foundRecipie._id %>/edit">Edit Recipe</a>
+            <p><%= foundRecipie.description %></p>
+            <form action="/recipies/<%= foundRecipie._id %>?_method=DELETE" method="POST">
+                <input class="button" type="submit" value="DELETE">
+            </form>
+        </div>
+    </div>
+</div>
+
+<%- include("./partials/footer.ejs") %>

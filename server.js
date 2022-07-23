@@ -2,7 +2,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const methodOverride = require("method-override");
-// const recipiesController = require('./controllers/recipies');
+const recipiesController = require('./controllers/recipies');
 
 //initalizing the app
 const app = express();
@@ -40,8 +40,8 @@ app.get('/', (req, res) => {
     res.redirect('/recipies')
 })
 
-//Router Middlewear
-// app.use('/recipies', recipiesController)
+// Router Middlewear
+app.use('/recipies', recipiesController)
 
 //listen 
 app.listen(PORT, () => {

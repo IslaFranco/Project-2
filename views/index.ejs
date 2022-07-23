@@ -1,0 +1,20 @@
+<%- include('./partials/head.ejs') %> 
+<%- include('./partials/header.ejs') %>  
+
+<div class="wrapper">
+    <% allRecipies.forEach(recipie => { %>
+        <div class="grid-container">
+            <h1><%= recipie.name %></h1>
+        <p>
+            <a href="/recipies/<%= recipie._id%>">
+                <img src="<%= recipie.img  %> " class="img-size img-border" alt="<%= recipie.name %> ">
+            </a>
+        </p>
+        <p>
+            <%= recipie.description %>
+        </p>
+        </div>
+    <%   }) %>
+</div>
+
+<%- include('./partials/footer.ejs') %> 

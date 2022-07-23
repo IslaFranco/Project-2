@@ -1,0 +1,20 @@
+<%- include("./partials/head.ejs") %>
+<%- include("./partials/header.ejs") %>
+
+<div class="wrapper-edit">
+    <a class="button back" href="/recipies/<%= foundRecipie._id %>">Go Back</a>
+    <div class="flex-parent">
+        <form action="/recipies/<%= foundRecipie._id %>?_method=PUT" method="POST" class="box">
+            <h1>Edit Product</h1>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" value="<%= foundRecipie.name %>">
+            <label for="description">Description:</label>
+            <textarea name="description" id="description" cols="30" rows="10"><%= foundRecipie.description %></textarea>
+            <label for="img">Image:</label>
+            <input type="text" name="img" id="img" value="<%= foundRecipie.img %>">
+            <input class="button" type="submit" value="Save Changes">
+        </form>
+    </div>
+</div>
+
+<%- include("./partials/footer.ejs") %>

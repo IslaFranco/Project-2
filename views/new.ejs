@@ -1,0 +1,20 @@
+<%- include("./partials/head.ejs") %>
+<%- include("./partials/header.ejs") %>
+
+<div class="wrapper-edit">
+    <a class="button back" href="/recipies">Go Back</a>
+    <div class="flex-parent">
+        <form action="/recipies" method="POST" class="box">
+            <h1>Create A New Recipe</h1>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Gluten Free...">
+            <label for="description">Description:</label>
+            <textarea name="description" id="description" cols="30" rows="10"></textarea>
+            <label for="img">Image:</label>
+            <input type="text" name="img" id="img">
+            <input class="button" type="submit" value="Create">
+        </form>
+    </div>
+</div>
+
+<%- include("./partials/footer.ejs") %>

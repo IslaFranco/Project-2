@@ -17,7 +17,7 @@ recipieRouter.get('/seed', (req, res) => {
 
 //index route
 recipieRouter.get('/', (req, res) => {
-    Product.find({}, (error, allRecipies) => {
+    Recipie.find({}, (error, allRecipies) => {
         res.render('index.ejs', { allRecipies })
     })
 })
@@ -36,7 +36,7 @@ recipieRouter.delete("/:id", (req, res) => {
 
 // update route
 recipieRouter.put("/:id", (req, res) => {
-    Product.findByIdAndUpdate(
+    Recipie.findByIdAndUpdate(
         req.params.id,
         req.body,
         {new: true},
