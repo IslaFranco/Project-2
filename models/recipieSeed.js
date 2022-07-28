@@ -59,5 +59,17 @@ module.exports = [
         description: 'Simple 4 ingridient Sourdough Bread recipe is perfect start with if you are new to sourdough bread baking.',
         img: 'https://www.kitchenstewardship.com/wp-content/uploads/2018/04/gluten-free-sourdough-croissant-from-Chris-Stafferton.jpg',
         link: 'https://www.whattheforkfoodblog.com/2020/05/17/gluten-free-sourdough-bread-recipe/',
+    },
+    {
+        name: 'Gluten Free Pizza Dough',
+        description: 'The best simple recipe for gluten free pizza dough that anyone can, and should, make is here. Even if you have never made homemade pizza before, we are bringing back the chewy, crisp-edged pizza you remember!',
+        img: 'https://glutenfreeonashoestring.com/wp-content/uploads/2019/04/Gluten-free-pizza-crust-image-for-homepage.jpg',
+        link: 'https://glutenfreeonashoestring.com/gf-pizza-dough/',
+    },
+    {
+        name: 'Homeade Tortillas',
+        description: 'These easy, gluten-free flour tortillas are perfect for tacos, quesadillas, burritos, wraps and more. They turn out delicious and are well worth the effort. Plus making them is easier than you would think!',
+        img: 'https://meaningfuleats.com/wp-content/uploads/2021/01/gluten-free-tortillas-1.jpg',
+        link: 'https://meaningfuleats.com/gluten-free-flour-tortillas/#recipe',
     }
 ]
