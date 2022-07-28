@@ -4,6 +4,7 @@ module.exports = [
         name: 'Crispy Baked Buffalo Wings',
         description: 'One simple ingredient gives these wings the crispy skin you crave without frying, they are as good as the real thing, only healthier!',
         img: 'https://therealfooddietitians.com/wp-content/uploads/2017/02/Crispy-Baked-Buffalo-Wings-9-500x500.jpg',
+        link: 'https://therealfooddietitians.com/crispy-baked-buffalo-wings/',
     }, 
     {
         name: 'Lemon Blueberry Bread With Glaze',

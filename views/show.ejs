@@ -5,10 +5,11 @@
     <a class="button back" href="/recipies">Go Back</a>
     <div class="flex-parent">
         <img src="<%= foundRecipie.img %>" class="img-size img-border alt="<%= foundRecipie.name %>">
-        <h1><%= foundRecipie.artist %></h1>
+        <h1><%= foundRecipie.name %></h1>
         <div class="box">
             <a class="button" href="/recipies/<%= foundRecipie._id %>/edit">Edit Recipe</a>
             <p><%= foundRecipie.description %></p>
+            <a class="button" href="<%= foundRecipie.link %>">Ingridients & Directions</a>
             <form action="/recipies/<%= foundRecipie._id %>?_method=DELETE" method="POST">
                 <input class="button" type="submit" value="DELETE">
             </form>
