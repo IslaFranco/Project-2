@@ -44,7 +44,7 @@ module.exports = [
     },
     {
         name: 'Lemon Dill Salmon',
-        description: 'Dead simple salmon cooked right in foil, with no clean up!',
+        description: 'Dead simple salmon cooked right in foil, with no clean up! With sliced lemon wedges, and erbs like parsley and dill and really transform this dish!',
         img: 'https://s23209.pcdn.co/wp-content/uploads/2016/08/Lemon-Dill-Salmon-in-FoilIMG_1418edit.jpg',
         link: 'https://fitfoodiefinds.com/oven-baked-salmon-in-foil/',
     },
@@ -71,5 +71,59 @@ module.exports = [
         description: 'These easy, gluten-free flour tortillas are perfect for tacos, quesadillas, burritos, wraps and more. They turn out delicious and are well worth the effort. Plus making them is easier than you would think!',
         img: 'https://meaningfuleats.com/wp-content/uploads/2021/01/gluten-free-tortillas-1.jpg',
         link: 'https://meaningfuleats.com/gluten-free-flour-tortillas/#recipe',
+    },
+    {
+        name: 'Brownies',
+        description: 'The PERFECT Gluten-Free Brownies  These almond flour brownies are everything. They are fudgy and rich, chocolatey and delicious, all without gluten, grains, or dairy!',
+        img: 'https://www.onelovelylife.com/wp-content/uploads/2021/02/Gluten-Free-Brownies-NEW32C.jpg',
+        link: 'https://www.onelovelylife.com/the-perfect-gluten-free-brownies/',
+    },
+    {
+        name: 'Garlic Bread',
+        description: 'Gluten free garlic bread is possible! Quick and easy gluten free garlic bread recipe is butttery and loaded with garlic and herb flavor. The perfect 15 minute side dish that will go great with just anything!',
+        img: 'https://www.peelwithzeal.com/wp-content/uploads/2021/11/gluten-free-garlic-bread-12.jpg',
+        link: 'https://www.peelwithzeal.com/gluten-free-garlic-bread/',
+    },
+    {
+        name: 'French Toast with Fruit',
+        description: 'This french toast will leave you wanting more! It has the perfect amount of cinnamon, butter, and vanilla topped with fresh fruit. Simple and easy to make every week! ',
+        img: 'https://www.asaucykitchen.com/wp-content/uploads/2019/06/Gluten-Free-French-Toast.jpg',
+        link: 'https://www.asaucykitchen.com/gluten-free-french-toast/',
+    },
+    {
+        name: 'Baja Fish Tacos with Chipotle Cream Sauce',
+        description: 'These gluten free fried fish tacos have a tangy sweet orange cabbage slaw and spicy chipotle cream sauce. Rice flour tempura batter makes a crispy golden fried fish! Learn what kind of fish makes the best baja fish tacos and how to make chipotle cream sauce!',
+        img: 'https://www.snixykitchen.com/wp-content/uploads/2019/02/Gluten-Free-Fried-Fish-Tacos-Chipotle-Cream-Sauce-6.jpg',
+        link: 'https://www.snixykitchen.com/gluten-free-fried-fish-tacos-with-chipotle-cream-sauce/',
+    },
+    {
+        name: 'Homeade Biscuits', 
+        description: 'Easy Gluten-Free Biscuits recipe made Southern Style with buttermilk. Flaky and tender. With a dairy-free and Vegan option. These can be topped with your favorite jam, butter. chocolate spread, or with biscuits and gravy.',
+        img: 'https://www.mamaknowsglutenfree.com/wp-content/uploads/2018/07/glutenfreebiscuits-rc1.jpg',
+        link: 'https://www.mamaknowsglutenfree.com/gluten-free-biscuits/#recipe',
+    },
+    {
+        name: 'Stuffed Bell Peppers',
+        description: 'These Stuffed Bell Peppers are filled with brown rice, ground beef, and cheese. These are a great appetizer for any occasion!',
+        img: 'https://healthyfitnessmeals.com/wp-content/uploads/2019/09/Stuffed-peppers-2.jpg',
+        link: 'https://healthyfitnessmeals.com/stuffed-bell-peppers/',
+    },
+    {
+        name: 'Penne alla Vodka',
+        description: 'Gluten free penne pasta in a creamy vodka sauce, with fresh cut basil and crushed red peppers.',
+        img: 'https://nyssaskitchen.com/wp-content/uploads/2021/03/Vegan-Penne-Alla-Vodka-Sauce-26-1020x1530.jpg',
+        link: 'https://www.honeywhatscooking.com/penne-alla-vodka/',
+    },
+    {
+        name: 'Rolled Chicken Taquitos',
+        description: 'These crunchy rolled tacos are filled with shredded chicken and are greatly parred with cheese and guacamole on top with your favorite hot sauce!',
+        img: 'https://www.evolvingtable.com/wp-content/uploads/2016/01/Chicken-Taquitos-14.jpg',
+        link: 'https://tasty.co/recipe/gluten-free-chicken-taquitos-as-made-by-parker-bates',
+    },
+    {
+        name: 'Easy Oat Waffles',
+        description: 'These waffles are light, whole grain, crisp on the outside, fluffy on the inside, Belgian with deep pockets are the best waffles! ',
+        img: 'https://cookieandkate.com/images/2014/09/gluten-free-oat-waffles-recipe-2-1.jpg',
+        link: 'https://cookieandkate.com/easy-gluten-free-oat-waffles/',
     }
 ]
