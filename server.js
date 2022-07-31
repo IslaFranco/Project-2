@@ -9,7 +9,7 @@ const app = express();
 
 //configure the app settings
 require("dotenv").config();
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || "3000";
 
 
 // database connection
