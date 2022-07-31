@@ -26,7 +26,7 @@
 ![recipe screenshot](assets/Screen%20Shot%202022-07-23%20at%2010.29.36%20AM.png) 
 
 # Getting Started
-[click here]() to get your new favorite gluten free recipe!
+[click here](https://glutenfree-app.herokuapp.com/recipies) to get your new favorite gluten free recipe!
 
 # Future Enhancements 
 - Create a like button that will save their favorite recipes
