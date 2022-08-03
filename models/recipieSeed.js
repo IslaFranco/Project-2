@@ -38,7 +38,7 @@ module.exports = [
     },
     {
         name: 'Fettuccine Alfredo',
-        description: 'Homemade Fettucciune with chicken or shrimp, the perfect pasta craving!',
+        description: 'Homemade Fettuccine with chicken or shrimp, the perfect pasta craving!',
         img: 'https://www.cottercrunch.com/wp-content/uploads/2021/07/Fettuccine-gluten-free-chicken-shrimp-vegetarian-low-carb-options_.5-scaled.jpg',
         link: 'https://www.cottercrunch.com/healthy-fettuccine-gluten-free/',
     },
